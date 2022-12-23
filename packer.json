@@ -32,7 +32,7 @@
                 "sudo touch /home/ansibleadmin/.ssh/authorized_keys",
                 "sudo usermod -aG sudo ansibleadmin",
                 "echo 'ansibleadmin ALL=(ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers",
-                "echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCLZ5XM1KgZvgwKkLtRjFoKiBs6xwHzYiSJQBxbDwPeDFS+x7x1vJoVG8qQyKt+u4TLnI8KJ9QlXWadwa7skuFqyl/2h99wJifdRhNdPTgL7SwulFv0dKp+vqUL5gMepbrWJmIcdoD3ik2jcL7oWQUCqoPcgLxUaR4lK9mxeOsuY1GiSBi71asQsIhGF7vWIUGI9OlX25fa2CNKtL0yg0NtWHuChP3eIyX3NZNifUA44kLsCM6FPJ2apB+TGofwDBoaRXVp0YsMzGBl3AsESnWOL47PqzzwX4LyVagZMBHCao7e4RnLIBl+4zY3bml9LoNR+5EoxbnFYNZZNkP3X6WP' | sudo tee /home/ansibleadmin/.ssh/authorized_keys"
+                "echo '' | sudo tee /home/ansibleadmin/.ssh/authorized_keys"
             ]
         }
     ]
